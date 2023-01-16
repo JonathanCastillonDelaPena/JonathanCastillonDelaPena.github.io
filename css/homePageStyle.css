@@ -1,4 +1,9 @@
-body section.mainContent section.heroSection img#heroSectionImg {
+body section.mainContent div.heroSection, div.heroSection {
     width: 100vw;
     height: 100vh;
 }
+    body section.mainContent div.heroSection, div.heroSection div.carousel-inner div.carousel-item img {
+        width: 560px;
+        height: 560px;
+        margin: auto;
+    }
