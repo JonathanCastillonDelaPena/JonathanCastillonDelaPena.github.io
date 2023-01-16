@@ -4,12 +4,12 @@ body section.mainContent div.heroSection{
     height: 90vh;
     background-color: antiquewhite;
 }
-    body section.mainContent div.heroSection div#powerPhrase {
+    body section.mainContent div.heroSection div.powerPhrase {
         position: absolute;
         top: 10vh;
         left: 0;
     }
-    body section.mainContent div.heroSection div#powerPhrase img#powerPhrase {
+    body section.mainContent div.heroSection div.powerPhrase img#powerPhrase {
         
         /* width: 904px;
         height: 111px; */
