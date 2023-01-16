@@ -1,12 +1,12 @@
 body section.mainContent div.heroSection{
     /* position: relative; */
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
     background-color: antiquewhite;
 }
     body section.mainContent div.heroSection div.powerPhrase {
         position: absolute;
-        top: 10vh;
+        top: 5vh;
         left: 0;
     }
     body section.mainContent div.heroSection div.powerPhrase img#powerPhrase {
@@ -16,9 +16,8 @@ body section.mainContent div.heroSection{
         width: 70vw;
         height: 20vh;
     }
-    body section.mainContent div.heroSection div.carousel, div.carousel-inner div.carousel-item img {
-        /* position: relative; */
+    body section.mainContent div.heroSection div.carousel div.carousel-inner div.carousel-item img {
         max-width: 560px;
-        max-height: 90vh;
+        max-height: 95vh;
         margin: auto;
     }
