@@ -1,3 +1,8 @@
 body {
     background-color: #ca6ba6;
 }
+
+header {
+    width: 100vw;
+    height: 10vh;
+}
