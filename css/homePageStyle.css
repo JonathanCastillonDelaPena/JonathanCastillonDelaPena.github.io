@@ -1,23 +1,28 @@
-body section.mainContent div.heroSection{
+body section.mainContent div.heroSection, div.socialMediaPromotionSection {
     /* position: relative; */
     width: 100vw;
     height: 95vh;
-    background-color: antiquewhite;
 }
-    body section.mainContent div.heroSection div.powerPhrase {
-        position: absolute;
-        top: 5vh;
-        left: 0;
+    body section.mainContent div.heroSection {
+        background-color: antiquewhite;
     }
-    body section.mainContent div.heroSection div.powerPhrase img#powerPhrase {
-        
-        /* width: 904px;
-        height: 111px; */
-        width: 70vw;
-        height: 20vh;
-    }
-    body section.mainContent div.heroSection div.carousel div.carousel-inner div.carousel-item img {
-        max-width: 560px;
-        max-height: 95vh;
-        margin: auto;
+        body section.mainContent div.heroSection div.powerPhrase {
+            position: absolute;
+            top: 5vh;
+            left: 0;
+        }
+        body section.mainContent div.heroSection div.powerPhrase img#powerPhrase {
+            
+            /* width: 904px;
+            height: 111px; */
+            width: 70vw;
+            height: 20vh;
+        }
+        body section.mainContent div.heroSection div.carousel div.carousel-inner div.carousel-item img {
+            max-width: 560px;
+            max-height: 95vh;
+            margin: auto;
+        }
+    body section.mainContent div.socialMediaPromotionSection {
+        background-color: cadetblue;
     }
