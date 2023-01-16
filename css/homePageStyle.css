@@ -1,9 +1,10 @@
-body section.mainContent div.heroSection, div.heroSection {
+body section.mainContent div.heroSection{
     width: 100vw;
     height: 100vh;
+    background-color: antiquewhite;
 }
-    body section.mainContent div.heroSection, div.heroSection div.carousel-inner div.carousel-item img {
-        width: 560px;
-        height: 560px;
+    body section.mainContent div.heroSection div.carousel, div.carousel-inner div.carousel-item img {
+        max-width: 560px;
+        max-height: 560px;
         margin: auto;
     }
