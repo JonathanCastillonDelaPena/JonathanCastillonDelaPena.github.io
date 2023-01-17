@@ -21,6 +21,8 @@ body section.mainContent div.heroSection, div.socialMediaPromotionSection {
             width: 70vw;
             height: 20vh;
         }
+        /* Power phrase styling */
+
         /* Carousel image styling */
         body section.mainContent div.heroSection div.carousel div.carousel-inner div.carousel-item img {
             max-width: 560px;
@@ -28,6 +30,8 @@ body section.mainContent div.heroSection, div.socialMediaPromotionSection {
             height: 100vh;
             margin: auto;
         }
+        /* Carousel image styling */
+        
     body section.mainContent div.socialMediaPromotionSection {
         background-color: cadetblue;
     }
