@@ -4,6 +4,22 @@ body section.mainContent div.heroSection, div.socialMediaPromotionSection {
     /* height: 95vh; */
     height: 100vh;
 }
+    /* Navbar styling */
+    /* div.navbarContainer{
+        position: absolute;
+        top: 0;
+        right: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        right: 0;
+        top: 0;
+    } */
+    /* nav.navbar {
+        right: 0;
+    } */
+    /* Navbar styling */
+
+    /* Main content styling */
     body section.mainContent div.heroSection {
         background-color: antiquewhite;
     }
@@ -35,3 +51,4 @@ body section.mainContent div.heroSection, div.socialMediaPromotionSection {
     body section.mainContent div.socialMediaPromotionSection {
         background-color: cadetblue;
     }
+    /* Main content styling */
