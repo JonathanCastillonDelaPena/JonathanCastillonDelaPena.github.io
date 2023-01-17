@@ -4,7 +4,8 @@
 }
 
 .socialMediaPromotionSection {
-    min-height: fit-content;
+    /* min-height: fit-content; */
+    min-height: 500px;
     background-color: #5f9ea0;
 }
 
@@ -16,7 +17,7 @@
 
 .powerPhraseContainer {
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 0;
     /* min-width: fit-content;
     min-height: fit-content; */
