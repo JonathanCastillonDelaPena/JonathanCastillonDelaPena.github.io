@@ -11,32 +11,34 @@
     <title>Mini Project 1</title>
   </head>
   <body>
-    <div class="navbarContainer sticky-top d-flex justify-content-end">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
-            </div>
+    <!-- Navbar Start -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0"
+    >
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto mx-lg-auto py-0">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Menu</a>
+            <a class="nav-item nav-link" href="#">About Me</a>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
     <section class="mainContent">
       <div class="heroSection">
         <div
@@ -125,5 +127,12 @@
     </section>
     <footer></footer>
   </body>
+  <!-- Bootstrap Javascript -->
   <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Jquery Online Library -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- Custom Javascript -->
+  <script src="js/app.js"></script>
 </html>
