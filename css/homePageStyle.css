@@ -7,6 +7,7 @@ body section.mainContent div.heroSection, div.socialMediaPromotionSection {
     body section.mainContent div.heroSection {
         background-color: antiquewhite;
     }
+        /* Power phrase styling */
         body section.mainContent div.heroSection div.powerPhrase {
             position: absolute;
             /* top: 5vh; */
@@ -20,6 +21,7 @@ body section.mainContent div.heroSection, div.socialMediaPromotionSection {
             width: 70vw;
             height: 20vh;
         }
+        /* Carousel image styling */
         body section.mainContent div.heroSection div.carousel div.carousel-inner div.carousel-item img {
             max-width: 560px;
             /* max-height: 95vh; */
