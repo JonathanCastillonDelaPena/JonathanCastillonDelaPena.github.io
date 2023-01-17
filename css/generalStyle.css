@@ -1,5 +1,5 @@
 body {
-    background-color: #ca6ba6;
+    background-color: #d5b8c9;
     overflow-x: hidden;
 }
 
@@ -7,3 +7,7 @@ body {
     width: 100vw;
     height: 5vh;
 } */
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}

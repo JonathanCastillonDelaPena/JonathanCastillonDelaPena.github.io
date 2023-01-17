@@ -1,7 +1,7 @@
-.heroSection {
+/* .heroSection {
     background-color: #faebd7;
-    min-height: fit-content;
-}
+    
+} */
 
 .socialMediaPromotionSection {
     /* min-height: fit-content; */
@@ -16,8 +16,10 @@
 
 .carousel-item img {
     max-width: 560px;
-    max-height: 540px;
-    margin: auto;
+    max-height: 520px;
+    margin: 10px auto;
+    border-radius: 10%;
+    box-shadow: 1px 1px 50px #add8e6;;
 }
 
 .powerPhraseContainer {
