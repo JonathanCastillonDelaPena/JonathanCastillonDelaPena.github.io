@@ -1,0 +1,28 @@
+.heroSection {
+    background-color: #faebd7;
+    min-height: fit-content;
+}
+
+.socialMediaPromotionSection {
+    min-height: fit-content;
+    background-color: #5f9ea0;
+}
+
+.carousel-item img {
+    max-width: 560px;
+    max-height: 540px;
+    margin: auto;
+}
+
+.powerPhraseContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* min-width: fit-content;
+    min-height: fit-content; */
+    /* background-color: #5f9ea0 */
+}
+
+.powerPhraseImg {
+    width: 68%;
+}

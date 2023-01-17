@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/generalStyle.css" />
     <link rel="stylesheet" href="css/homePageStyle.css" />
-    <link rel="stylesheet" href="css/powerPhrase.css" />
     <title>Mini Project 1</title>
   </head>
   <body>
@@ -39,100 +38,110 @@
     </nav>
     <!-- Navbar End -->
 
-    <section class="mainContent">
-      <div class="heroSection">
-        <div
-          id="carouselHeroSection"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselHeroSection"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselHeroSection"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselHeroSection"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <!-- Carousel image content. -->
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-              <img
-                src="pictures/cupcakeOnHand.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="pictures/pastrySetCaramelColorThemed.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img
-                src="pictures/cupcakeGreyWhite.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-          <!-- Carousel image content. -->
+    <!-- Hero Section Start -->
+    <div class="container-fluid heroSection">
+      <!-- Carousel Start -->
+      <div
+        id="carouselHeroSection"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselHeroSection"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
 
-          <!-- Carousel control buttons. -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselHeroSection"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselHeroSection"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-          <!-- Carousel control buttons. -->
+        <!-- Carousel Image Content Start -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="pictures/cupcakeOnHand.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="pictures/pastrySetCaramelColorThemed.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="pictures/cupcakeGreyWhite.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
-        <div class="powerPhrase">
-          <img
-            id="powerPhrase"
-            src="pictures/powerPhraseLargerOutlined.png"
-            alt="Power Phrase"
-          />
-        </div>
+        <!-- Carousel Image Content Start End -->
+
+        <!-- Carousel Control Buttons Start -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselHeroSection"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselHeroSection"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- Carousel Control Buttons End -->
       </div>
-      <div class="socialMediaPromotionSection"></div>
-    </section>
+      <!-- Carousel End -->
+
+      <div class="container-fluid powerPhraseContainer">
+        <img
+          class="powerPhraseImg"
+          src="pictures/powerPhraseLargerOutlined.png"
+          alt="Power Phrase"
+        />
+      </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Social Media Promotion Start -->
+    <div class="container-fluid socialMediaPromotionSection">
+      <h1>Sample</h1>
+    </div>
+    <!-- Social Media Promotion Start -->
+
     <footer></footer>
   </body>
   <!-- Bootstrap Javascript -->
   <script src="js/bootstrap.bundle.min.js"></script>
 
   <!-- Jquery Online Library -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
 
   <!-- Custom Javascript -->
-  <script src="js/app.js"></script>
+  <!-- <script src="js/app.js"></script> -->
 </html>
