@@ -2,13 +2,13 @@ $(function ($) {
     `use strict`;
 
     // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 40) {
-            $('.navbar').addClass('sticky-top');
-        } else {
-            $('.navbar').removeClass('sticky-top');
-        }
-    });
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 40) {
+    //         $('.navbar').addClass('sticky-top');
+    //     } else {
+    //         $('.navbar').removeClass('sticky-top');
+    //     }
+    // });
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
