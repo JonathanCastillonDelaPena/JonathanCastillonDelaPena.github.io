@@ -3,10 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-/* header {
-    width: 100vw;
-    height: 5vh;
-} */
 .nav-item {
     font-family: 'Oswald', sans-serif;
     font-size: large;
