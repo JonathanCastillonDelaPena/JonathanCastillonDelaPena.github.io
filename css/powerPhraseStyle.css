@@ -1,19 +1,19 @@
 .powerPhraseContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .power {
-    font-family: Impact, sans-serif;
-    text-decoration-line: underline;
-    font-size: 150px;
-    color: #ff0000;
+  font-family: Impact, sans-serif;
+  text-decoration-line: underline;
+  font-size: 150px;
+  color: #ff0000;
 }
 
 .phrase {
-    font-family: 'Courgette', cursive;
-    font-size: 70px;
-    text-shadow: 1px 1px 4px rgb(255, 255, 255);
-    color: #000000;
+  font-family: "Courgette", cursive;
+  font-size: 70px;
+  text-shadow: 1px 1px 4px rgb(255, 255, 255);
+  color: #000000;
 }

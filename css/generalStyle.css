@@ -1,13 +1,13 @@
 body {
-    background-color: #d5b8c9;
-    overflow-x: hidden;
+  background-color: #d5b8c9;
+  overflow-x: hidden;
 }
 
 .nav-item {
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
 }
 
 .footer {
-    background-color: #212529;
+  background-color: #212529;
 }
