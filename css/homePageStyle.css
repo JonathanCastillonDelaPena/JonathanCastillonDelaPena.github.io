@@ -1,11 +1,5 @@
-.heroSection, .sampleProductPromotionSection {
+.heroSection, .sampleProductPromotionSection, .socialMediaPromotionSection {
     min-height: 100vh;
-}
-
-.socialMediaPromotionSection {
-    /* min-height: fit-content; */
-    min-height: 500px;
-    background-color: #5f9ea0;
 }
 
 .carousel-item {
