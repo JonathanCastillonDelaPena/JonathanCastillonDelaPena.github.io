@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/generalStyle.css" />
     <link rel="stylesheet" href="css/homePageStyle.css" />
-    <link rel="stylesheet" href="css/powerPhraseStyle.css" />
     <link rel="stylesheet" href="css/testimonialStyle.css" />
     <title>Mini Project 1</title>
   </head>
@@ -102,21 +101,21 @@
           <div class="carousel-item active" data-bs-interval="3000">
             <img
               src="pictures/cupcakeOnHand.jpg"
-              class="d-block col-4"
+              class="d-block col-9 col-md-6 col-lg-5"
               alt="..."
             />
           </div>
           <div class="carousel-item" data-bs-interval="3000">
             <img
               src="pictures/pastrySetCaramelColorThemed.jpg"
-              class="d-block col-4"
+              class="d-block col-9 col-md-6 col-lg-5"
               alt="..."
             />
           </div>
           <div class="carousel-item" data-bs-interval="3000">
             <img
               src="pictures/cupcakePinkRoseThemed.jpeg"
-              class="d-block col-4"
+              class="d-block col-9 col-md-6 col-lg-5"
               alt="..."
             />
           </div>
@@ -145,15 +144,6 @@
         <!-- Carousel Control Buttons End -->
       </div>
       <!-- Carousel End -->
-
-      <!-- Power Phrase Star -->
-      <div class="container-fluid powerPhraseContainer">
-        <p class="d-inline-block">
-          <span class="power align-middle">Mark</span>
-          <span class="phrase align-baseline">your cake now!</span>
-        </p>
-      </div>
-      <!-- Power Phrase End -->
     </div>
     <!-- Hero Section End -->
 
@@ -161,9 +151,10 @@
     <div class="container-fluid sampleProductPromotionSection">
       <!-- Quick Sample Product Showcase Start -->
       <div class="container-fluid sampleProductQuickShowcaseContainer">
-        <div class="container-fluid d-flex justify-content-around">
-          <!-- Sample Product Cards Start -->
-          <div class="card col-3">
+        <!-- Sample Product Cards Start -->
+        <div class="container-fluid row g-3 justify-content-around">
+          <!-- Cupcake Card Start -->
+          <div class="card col-10 col-md-7 col-lg-3">
             <img
               src="pictures/cupcakeOrange.jpg"
               class="card-img-top"
@@ -171,19 +162,23 @@
             />
             <div class="card-body text-center">
               <p>Cupcakes</p>
-              <a href="#" class="btn btn-primary">View More</a>
+              <a href="/pages/menu.html" class="btn btn-primary">View More</a>
             </div>
           </div>
-          <div class="card col-3">
+          <!-- Cupcake Card End -->
+
+          <!-- Cake Card Start -->
+          <div class="card col-10 col-md-7 col-lg-3">
             <img src="pictures/cakeWhite.jpg" class="card-img-top" alt="..." />
             <div class="card-body text-center">
               <p>Cakes</p>
-              <a href="/pages/menu.html#tab-2" class="btn btn-primary"
-                >View More</a
-              >
+              <a href="/pages/menu.html" class="btn btn-primary">View More</a>
             </div>
           </div>
-          <div class="card col-3">
+          <!-- Cake Card End -->
+
+          <!-- Pastry Set Card Start -->
+          <div class="card col-10 col-md-7 col-lg-3">
             <img
               src="pictures/pastrySetCaramelColorThemed.jpg"
               class="card-img-top"
@@ -191,11 +186,12 @@
             />
             <div class="card-body text-center">
               <p>Pastry Sets</p>
-              <a href="#" class="btn btn-primary">View More</a>
+              <a href="/pages/menu.html" class="btn btn-primary">View More</a>
             </div>
           </div>
-          <!-- Sample Product Cards End -->
+          <!-- Pastry Set Card End -->
         </div>
+        <!-- Sample Product Cards End -->
       </div>
       <!-- Quick Sample Product Showcase End -->
     </div>

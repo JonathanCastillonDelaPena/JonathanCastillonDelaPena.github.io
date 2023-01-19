@@ -1,18 +1,18 @@
-.heroSection,
+/* .heroSection,
 .sampleProductPromotionSection,
 .socialMediaPromotionSection,
 .previousProductQuickShowcaseContainer {
   min-height: 100vh;
-}
+} */
 
-.carousel-item {
+/* .carousel-item {
   margin-top: 88px;
-}
+} */
 
 .carousel-item img {
   /* max-width: 560px;
     max-height: 520px; */
-  margin: 10px auto;
+  margin: auto;
   border-radius: 10%;
   box-shadow: 1px 1px 50px #add8e6;
 }
